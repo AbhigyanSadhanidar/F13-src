@@ -2,14 +2,14 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\prismjs\\themes\\prism.css'
+import '../node_modules/prismjs/themes/prism.css'
 
-import _6f6c098b from '..\\layouts\\default.vue'
-import _0e913c32 from '..\\layouts\\general.vue'
+import _6f6c098b from '../layouts/default.vue'
+import _0e913c32 from '../layouts/general.vue'
 
 const layouts = { "_default": sanitizeComponent(_6f6c098b),"_general": sanitizeComponent(_0e913c32) }
 

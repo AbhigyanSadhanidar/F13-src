@@ -8,7 +8,7 @@ const VUEX_PROPERTIES = ['state', 'getters', 'actions', 'mutations']
 let store = {};
 
 (function updateModules () {
-  store = normalizeRoot(require('..\\store\\index.js'), 'store/index.js')
+  store = normalizeRoot(require('../store/index.js'), 'store/index.js')
 
   // If store is an exported method = classic mode (deprecated)
 
@@ -19,29 +19,29 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
-  resolveStoreModules(require('..\\store\\common.js'), 'common.js')
-  resolveStoreModules(require('..\\store\\letters.js'), 'letters.js')
-  resolveStoreModules(require('..\\store\\main.js'), 'main.js')
-  resolveStoreModules(require('..\\store\\members.js'), 'members.js')
-  resolveStoreModules(require('..\\store\\pledge.js'), 'pledge.js')
-  resolveStoreModules(require('..\\store\\settings.js'), 'settings.js')
-  resolveStoreModules(require('..\\store\\styles.js'), 'styles.js')
-  resolveStoreModules(require('..\\store\\ventures.js'), 'ventures.js')
+  resolveStoreModules(require('../store/common.js'), 'common.js')
+  resolveStoreModules(require('../store/letters.js'), 'letters.js')
+  resolveStoreModules(require('../store/main.js'), 'main.js')
+  resolveStoreModules(require('../store/members.js'), 'members.js')
+  resolveStoreModules(require('../store/pledge.js'), 'pledge.js')
+  resolveStoreModules(require('../store/settings.js'), 'settings.js')
+  resolveStoreModules(require('../store/styles.js'), 'styles.js')
+  resolveStoreModules(require('../store/ventures.js'), 'ventures.js')
 
   // If the environment supports hot reloading...
 
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
-      '..\\store\\common.js',
-      '..\\store\\index.js',
-      '..\\store\\letters.js',
-      '..\\store\\main.js',
-      '..\\store\\members.js',
-      '..\\store\\pledge.js',
-      '..\\store\\settings.js',
-      '..\\store\\styles.js',
-      '..\\store\\ventures.js',
+      '../store/common.js',
+      '../store/index.js',
+      '../store/letters.js',
+      '../store/main.js',
+      '../store/members.js',
+      '../store/pledge.js',
+      '../store/settings.js',
+      '../store/styles.js',
+      '../store/ventures.js',
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()

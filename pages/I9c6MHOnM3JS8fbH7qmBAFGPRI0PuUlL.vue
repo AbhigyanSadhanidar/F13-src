@@ -143,8 +143,6 @@
                     ></v-select>
                   </v-col>
 
-                
-
                   <!-- PDF Upload -->
                   <v-col cols="12">
                     <v-file-input
@@ -315,9 +313,20 @@ export default {
       this.loading = true
 
       try {
-        // Simulate API call - replace with actual API endpoint
-        await this.uploadTender()
         
+        await this.saveTenderToAWS({
+          tenderId: this.form.tenderId,
+          title: this.form.title,
+          description: this.form.description,
+          startDate: this.form.startingDate,
+          endDate: this.form.endingDate,
+          status: this.form.status,
+          pdfUrl: this.form.pdfUrl
+        });
+
+        
+        await this.uploadTender();
+
         this.showSnackbar('Tender uploaded successfully!', 'success')
         this.resetForm()
       } catch (error) {
@@ -328,16 +337,28 @@ export default {
       }
     },
     async uploadTender() {
-      // Simulate API call
+      
       return new Promise((resolve, reject) => {
         setTimeout(() => {
-          // Here you would make the actual API call
-          console.log('Uploading tender:', this.form)
-          
-          // For now, just simulate success
+          console.log('Uploading tender (simulated):', this.form)
           resolve({ success: true })
         }, 2000)
       })
+    },
+    async saveTenderToAWS(tenderData) {
+      try {
+        const response = await fetch('https://fekd1z9eg4.execute-api.us-east-1.amazonaws.com/src/tenders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(tenderData)
+        });
+        if (!response.ok) throw new Error('Failed to save tender to AWS');
+        const result = await response.json();
+        console.log('Tender saved to DynamoDB:', result);
+      } catch (err) {
+        console.error('Error saving tender:', err);
+        throw err;
+      }
     },
     resetForm() {
       this.$refs.form.reset()
@@ -373,12 +394,10 @@ export default {
   padding: 0;
 }
 
-/* Custom styling for date picker */
 .v-date-picker {
   border-radius: 8px;
 }
 
-/* Form validation styling */
 .v-input--is-focused .v-label {
   color: #1D3A7C !important;
 }
@@ -387,12 +406,10 @@ export default {
   border-color: #1D3A7C !important;
 }
 
-/* Button styling */
 .v-btn--large {
   min-width: 150px;
 }
 
-/* File input styling */
 .v-file-input .v-input__control {
   min-height: 56px;
 }
