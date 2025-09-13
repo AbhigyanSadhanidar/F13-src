@@ -1,0 +1,164 @@
+{
+  "AlertComponent": {
+    "description": "Auto imported from components/AlertComponent.vue"
+  },
+  "Consulting": {
+    "description": "Auto imported from components/Consulting.vue"
+  },
+  "Cookie": {
+    "description": "Auto imported from components/Cookie.vue"
+  },
+  "CounterMarginLess": {
+    "description": "Auto imported from components/CounterMarginLess.vue"
+  },
+  "CounterSection": {
+    "description": "Auto imported from components/CounterSection.vue"
+  },
+  "CounterUpcoming": {
+    "description": "Auto imported from components/CounterUpcoming.vue"
+  },
+  "Demo": {
+    "description": "Auto imported from components/Demo.vue"
+  },
+  "DigitalDocumentation": {
+    "description": "Auto imported from components/DigitalDocumentation.vue"
+  },
+  "Documentry": {
+    "description": "Auto imported from components/Documentry.vue"
+  },
+  "EfsLogin": {
+    "description": "Auto imported from components/EfsLogin.vue"
+  },
+  "EfsPledgeRegister": {
+    "description": "Auto imported from components/EfsPledgeRegister.vue"
+  },
+  "EmbedTranslate": {
+    "description": "Auto imported from components/EmbedTranslate.vue"
+  },
+  "EmbedTwitter": {
+    "description": "Auto imported from components/EmbedTwitter.vue"
+  },
+  "EsfMembers": {
+    "description": "Auto imported from components/EsfMembers.vue"
+  },
+  "Esg": {
+    "description": "Auto imported from components/Esg.vue"
+  },
+  "EventTimeline": {
+    "description": "Auto imported from components/EventTimeline.vue"
+  },
+  "GetCertificate": {
+    "description": "Auto imported from components/GetCertificate.vue"
+  },
+  "GetVerify": {
+    "description": "Auto imported from components/GetVerify.vue"
+  },
+  "GuestCard": {
+    "description": "Auto imported from components/GuestCard.vue"
+  },
+  "IntellectualSupport": {
+    "description": "Auto imported from components/IntellectualSupport.vue"
+  },
+  "InternshipForm": {
+    "description": "Auto imported from components/InternshipForm.vue"
+  },
+  "LetterSlider": {
+    "description": "Auto imported from components/LetterSlider.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "MasterAboutUs": {
+    "description": "Auto imported from components/MasterAboutUs.vue"
+  },
+  "MasterFooter": {
+    "description": "Auto imported from components/MasterFooter.vue"
+  },
+  "MasterFooterTwo": {
+    "description": "Auto imported from components/MasterFooterTwo.vue"
+  },
+  "MasterGallery": {
+    "description": "Auto imported from components/MasterGallery.vue"
+  },
+  "MasterSlider": {
+    "description": "Auto imported from components/MasterSlider.vue"
+  },
+  "MediaAdvocacy": {
+    "description": "Auto imported from components/MediaAdvocacy.vue"
+  },
+  "MemberCard": {
+    "description": "Auto imported from components/MemberCard.vue"
+  },
+  "MemberDialog": {
+    "description": "Auto imported from components/MemberDialog.vue"
+  },
+  "NestedMenu": {
+    "description": "Auto imported from components/NestedMenu.vue"
+  },
+  "NumberCounter": {
+    "description": "Auto imported from components/NumberCounter.vue"
+  },
+  "PledgeCert": {
+    "description": "Auto imported from components/PledgeCert.vue"
+  },
+  "PledgeDetail": {
+    "description": "Auto imported from components/PledgeDetail.vue"
+  },
+  "PledgeList": {
+    "description": "Auto imported from components/PledgeList.vue"
+  },
+  "PledgeRegister": {
+    "description": "Auto imported from components/PledgeRegister.vue"
+  },
+  "PledgeVerify": {
+    "description": "Auto imported from components/PledgeVerify.vue"
+  },
+  "PrimaryAppBar": {
+    "description": "Auto imported from components/PrimaryAppBar.vue"
+  },
+  "Research": {
+    "description": "Auto imported from components/Research.vue"
+  },
+  "SecondMaster": {
+    "description": "Auto imported from components/SecondMaster.vue"
+  },
+  "ShowSnack": {
+    "description": "Auto imported from components/ShowSnack.vue"
+  },
+  "SimpleMaster": {
+    "description": "Auto imported from components/SimpleMaster.vue"
+  },
+  "SocialSection": {
+    "description": "Auto imported from components/SocialSection.vue"
+  },
+  "SrcEventCountdown": {
+    "description": "Auto imported from components/SrcEventCountdown.vue"
+  },
+  "SrcLoader": {
+    "description": "Auto imported from components/SrcLoader.vue"
+  },
+  "StartupDialog": {
+    "description": "Auto imported from components/StartupDialog.vue"
+  },
+  "TakePledge": {
+    "description": "Auto imported from components/TakePledge.vue"
+  },
+  "TeamCard": {
+    "description": "Auto imported from components/TeamCard.vue"
+  },
+  "TwitterCard": {
+    "description": "Auto imported from components/TwitterCard.vue"
+  },
+  "TwitterGallery": {
+    "description": "Auto imported from components/TwitterGallery.vue"
+  },
+  "UpcomingEvents": {
+    "description": "Auto imported from components/UpcomingEvents.vue"
+  },
+  "VoluntaryForm": {
+    "description": "Auto imported from components/VoluntaryForm.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}
