@@ -3,106 +3,91 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/about/index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_14bf76c2"
+    "chunkName": "pages/about/index"
   },
   {
     "name": "advisory",
     "path": "/advisory",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/advisory.vue",
-    "chunkName": "pages/advisory",
-    "_name": "_1ec3780c"
+    "chunkName": "pages/advisory"
   },
   {
     "name": "capabilities",
     "path": "/capabilities",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/index.vue",
-    "chunkName": "pages/capabilities/index",
-    "_name": "_9d7ead8c"
+    "chunkName": "pages/capabilities/index"
   },
   {
     "name": "concept-note",
     "path": "/concept-note",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/concept-note.vue",
-    "chunkName": "pages/concept-note",
-    "_name": "_8a2cd010"
+    "chunkName": "pages/concept-note"
   },
   {
     "name": "demo",
     "path": "/demo",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/demo.vue",
-    "chunkName": "pages/demo",
-    "_name": "_549f00a4"
+    "chunkName": "pages/demo"
   },
   {
     "name": "events",
     "path": "/events",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/events/index.vue",
-    "chunkName": "pages/events/index",
-    "_name": "_047384c6"
+    "chunkName": "pages/events/index"
   },
   {
     "name": "founder",
     "path": "/founder",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/founder/index.vue",
-    "chunkName": "pages/founder/index",
-    "_name": "_bc6c0efe"
+    "chunkName": "pages/founder/index"
   },
   {
     "name": "I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL",
     "path": "/I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL.vue",
-    "chunkName": "pages/I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL",
-    "_name": "_53afc455"
+    "chunkName": "pages/I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL"
   },
   {
     "name": "inspire",
     "path": "/inspire",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_05d13bae"
+    "chunkName": "pages/inspire"
   },
   {
     "name": "members",
     "path": "/members",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/members/index.vue",
-    "chunkName": "pages/members/index",
-    "_name": "_ee2e8d2a"
+    "chunkName": "pages/members/index"
   },
   {
     "name": "pledge",
     "path": "/pledge",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/pledge/index.vue",
-    "chunkName": "pages/pledge/index",
-    "_name": "_52d3323d"
+    "chunkName": "pages/pledge/index"
   },
   {
     "name": "register_success",
     "path": "/register_success",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/register_success.vue",
-    "chunkName": "pages/register_success",
-    "_name": "_07aca4b0"
+    "chunkName": "pages/register_success"
   },
   {
     "name": "registration",
     "path": "/registration",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/registration.vue",
-    "chunkName": "pages/registration",
-    "_name": "_0f4a510c"
+    "chunkName": "pages/registration"
   },
   {
     "name": "SeeSummit2021",
     "path": "/SeeSummit2021",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/SeeSummit2021.vue",
-    "chunkName": "pages/SeeSummit2021",
-    "_name": "_53779868"
+    "chunkName": "pages/SeeSummit2021"
   },
   {
     "name": "SeeSummit2022",
     "path": "/SeeSummit2022",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/SeeSummit2022.vue",
-    "chunkName": "pages/SeeSummit2022",
-    "_name": "_535b6966"
+    "chunkName": "pages/SeeSummit2022"
   },
   {
     "name": "success",
@@ -114,178 +99,152 @@
         "name": "success-id",
         "path": ":id?",
         "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/success/_id.vue",
-        "chunkName": "pages/success/_id",
-        "_name": "_990bf106"
+        "chunkName": "pages/success/_id"
       }
-    ],
-    "_name": "_203372d2"
+    ]
   },
   {
     "name": "supporters",
     "path": "/supporters",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/supporters.vue",
-    "chunkName": "pages/supporters",
-    "_name": "_28a74d90"
+    "chunkName": "pages/supporters"
   },
   {
     "name": "team",
     "path": "/team",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/team/index.vue",
-    "chunkName": "pages/team/index",
-    "_name": "_9f2e1fbe"
+    "chunkName": "pages/team/index"
   },
   {
     "name": "tenders",
     "path": "/tenders",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/tenders.vue",
-    "chunkName": "pages/tenders",
-    "_name": "_359e2cee"
+    "chunkName": "pages/tenders"
   },
   {
     "name": "ventures",
     "path": "/ventures",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/ventures/index.vue",
-    "chunkName": "pages/ventures/index",
-    "_name": "_6ea583c4"
+    "chunkName": "pages/ventures/index"
   },
   {
     "name": "about-src",
     "path": "/about/src",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/about/src.vue",
-    "chunkName": "pages/about/src",
-    "_name": "_3caf09f1"
+    "chunkName": "pages/about/src"
   },
   {
     "name": "capabilities-consulting_and_advisory",
     "path": "/capabilities/consulting_and_advisory",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/consulting_and_advisory.vue",
-    "chunkName": "pages/capabilities/consulting_and_advisory",
-    "_name": "_44b0b7b2"
+    "chunkName": "pages/capabilities/consulting_and_advisory"
   },
   {
     "name": "capabilities-digital_documentation",
     "path": "/capabilities/digital_documentation",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/digital_documentation.vue",
-    "chunkName": "pages/capabilities/digital_documentation",
-    "_name": "_ee5bde8a"
+    "chunkName": "pages/capabilities/digital_documentation"
   },
   {
     "name": "capabilities-documentry",
     "path": "/capabilities/documentry",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/documentry.vue",
-    "chunkName": "pages/capabilities/documentry",
-    "_name": "_a5e65d2c"
+    "chunkName": "pages/capabilities/documentry"
   },
   {
     "name": "capabilities-esg",
     "path": "/capabilities/esg",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/esg.vue",
-    "chunkName": "pages/capabilities/esg",
-    "_name": "_401bd261"
+    "chunkName": "pages/capabilities/esg"
   },
   {
     "name": "capabilities-intellectual_support",
     "path": "/capabilities/intellectual_support",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/intellectual_support.vue",
-    "chunkName": "pages/capabilities/intellectual_support",
-    "_name": "_cd5a2b90"
+    "chunkName": "pages/capabilities/intellectual_support"
   },
   {
     "name": "capabilities-media_advocacy",
     "path": "/capabilities/media_advocacy",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/media_advocacy.vue",
-    "chunkName": "pages/capabilities/media_advocacy",
-    "_name": "_6fbf33b3"
+    "chunkName": "pages/capabilities/media_advocacy"
   },
   {
     "name": "capabilities-partnerships",
     "path": "/capabilities/partnerships",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/partnerships.vue",
-    "chunkName": "pages/capabilities/partnerships",
-    "_name": "_29acbf92"
+    "chunkName": "pages/capabilities/partnerships"
   },
   {
     "name": "capabilities-research",
     "path": "/capabilities/research",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/capabilities/research.vue",
-    "chunkName": "pages/capabilities/research",
-    "_name": "_03e175e3"
+    "chunkName": "pages/capabilities/research"
   },
   {
     "name": "efs-login",
     "path": "/efs/login",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/efs/login.vue",
-    "chunkName": "pages/efs/login",
-    "_name": "_699bf39b"
+    "chunkName": "pages/efs/login"
   },
   {
     "name": "esf-members",
     "path": "/esf/members",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/esf/members.vue",
-    "chunkName": "pages/esf/members",
-    "_name": "_12293f51"
+    "chunkName": "pages/esf/members"
   },
   {
     "name": "events-campaigns",
     "path": "/events/campaigns",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/events/campaigns.vue",
-    "chunkName": "pages/events/campaigns",
-    "_name": "_494ab42e"
+    "chunkName": "pages/events/campaigns"
   },
   {
     "name": "membership-internship",
     "path": "/membership/internship",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/membership/internship.vue",
-    "chunkName": "pages/membership/internship",
-    "_name": "_235114b6"
+    "chunkName": "pages/membership/internship"
   },
   {
     "name": "membership-voluntary",
     "path": "/membership/voluntary",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/membership/voluntary.vue",
-    "chunkName": "pages/membership/voluntary",
-    "_name": "_92b19430"
+    "chunkName": "pages/membership/voluntary"
   },
   {
     "name": "ventures-m_book",
     "path": "/ventures/m_book",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/ventures/m_book.vue",
-    "chunkName": "pages/ventures/m_book",
-    "_name": "_876d130e"
+    "chunkName": "pages/ventures/m_book"
   },
   {
     "name": "events-id",
     "path": "/events/:id",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/events/_id.vue",
-    "chunkName": "pages/events/_id",
-    "_name": "_0e110345"
+    "chunkName": "pages/events/_id"
   },
   {
     "name": "pledge-id",
     "path": "/pledge/:id",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/pledge/_id.vue",
-    "chunkName": "pages/pledge/_id",
-    "_name": "_1d129fe5"
+    "chunkName": "pages/pledge/_id"
   },
   {
     "name": "ventures-id",
     "path": "/ventures/:id",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/ventures/_id.vue",
-    "chunkName": "pages/ventures/_id",
-    "_name": "_8aecb1a8"
+    "chunkName": "pages/ventures/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3b69443e"
+    "chunkName": "pages/index"
   },
   {
     "name": "id",
     "path": "/:id",
     "component": "/Users/abhigyansadhanidar/Documents/F13 Technologies/src/pages/_id.vue",
-    "chunkName": "pages/_id",
-    "_name": "_51ad36ee"
+    "chunkName": "pages/_id"
   }
 ]
