@@ -345,6 +345,8 @@ export default {
         }, 2000)
       })
     },
+  
+  
     async saveTenderToAWS(tenderData) {
       try {
         const response = await fetch(' https://fekd1z9eg4.execute-api.us-east-1.amazonaws.com/src/src-export', {
