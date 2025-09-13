@@ -292,7 +292,7 @@ export default {
         };
 
         const res = await fetch(
-          "https://rbcb8n572i.execute-api.us-east-1.amazonaws.com/prod",
+          "https://rbcb8n572i.execute-api.us-east-1.amazonaws.com/prod/src",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
