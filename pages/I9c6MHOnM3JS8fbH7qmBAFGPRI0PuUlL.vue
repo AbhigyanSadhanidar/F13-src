@@ -347,7 +347,7 @@ export default {
     },
     async saveTenderToAWS(tenderData) {
       try {
-        const response = await fetch('https://fekd1z9eg4.execute-api.us-east-1.amazonaws.com/src', {
+        const response = await fetch(' https://fekd1z9eg4.execute-api.us-east-1.amazonaws.com/src/src-export', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(tenderData)
