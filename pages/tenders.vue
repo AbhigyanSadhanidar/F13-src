@@ -246,7 +246,7 @@
             startingDate: '2025-09-14',
             endingDate: '2025-09-28',
             status: 'Live Now',
-            pdfUrl: '/static/placeholder-document.pdf',
+            pdfUrl: '/pdf/SRC Space_Labs Tender (1).pdf',
             downloading: false
           },
         ]
