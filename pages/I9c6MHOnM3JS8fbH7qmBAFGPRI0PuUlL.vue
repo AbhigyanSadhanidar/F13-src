@@ -31,7 +31,7 @@
               <v-icon left>mdi-plus-circle</v-icon>
               Add New Tender
             </v-card-title>
-            
+
             <v-form ref="form" v-model="valid" @submit.prevent="submitForm">
               <v-card-text>
                 <v-row>
@@ -44,7 +44,7 @@
                       required
                       outlined
                       prepend-icon="mdi-identifier"
-                    ></v-text-field>
+                    />
                   </v-col>
 
                   <!-- Title -->
@@ -56,7 +56,7 @@
                       required
                       outlined
                       prepend-icon="mdi-format-title"
-                    ></v-text-field>
+                    />
                   </v-col>
 
                   <!-- Description -->
@@ -69,7 +69,7 @@
                       outlined
                       rows="4"
                       prepend-icon="mdi-text"
-                    ></v-textarea>
+                    />
                   </v-col>
 
                   <!-- Starting Date -->
@@ -92,12 +92,12 @@
                           prepend-icon="mdi-calendar"
                           v-bind="attrs"
                           v-on="on"
-                        ></v-text-field>
+                        />
                       </template>
                       <v-date-picker
                         v-model="form.startingDate"
                         @input="startDateMenu = false"
-                      ></v-date-picker>
+                      />
                     </v-menu>
                   </v-col>
 
@@ -121,12 +121,12 @@
                           prepend-icon="mdi-calendar"
                           v-bind="attrs"
                           v-on="on"
-                        ></v-text-field>
+                        />
                       </template>
                       <v-date-picker
                         v-model="form.endingDate"
                         @input="endDateMenu = false"
-                      ></v-date-picker>
+                      />
                     </v-menu>
                   </v-col>
 
@@ -140,25 +140,24 @@
                       required
                       outlined
                       prepend-icon="mdi-flag"
-                    ></v-select>
+                    />
                   </v-col>
 
                   <!-- PDF Upload -->
                   <v-col cols="12">
                     <v-file-input
                       v-model="form.pdfFile"
-                      label="Upload PDF Document *"
+                      label="Upload PDF Document"
                       :rules="pdfRules"
-                      required
                       outlined
                       prepend-icon="mdi-file-pdf"
                       accept=".pdf"
                       show-size
                       @change="handleFileUpload"
-                    ></v-file-input>
+                    />
                   </v-col>
 
-                  <!-- PDF URL (Alternative) -->
+                  <!-- PDF URL -->
                   <v-col cols="12">
                     <v-text-field
                       v-model="form.pdfUrl"
@@ -167,19 +166,14 @@
                       prepend-icon="mdi-link"
                       hint="Use this if you want to provide a direct URL instead of uploading a file"
                       persistent-hint
-                    ></v-text-field>
+                    />
                   </v-col>
                 </v-row>
               </v-card-text>
 
               <v-card-actions class="pa-4">
-                <v-spacer></v-spacer>
-                <v-btn
-                  color="grey"
-                  large
-                  outlined
-                  @click="resetForm"
-                >
+                <v-spacer />
+                <v-btn color="grey" large outlined @click="resetForm">
                   <v-icon left>mdi-refresh</v-icon>
                   Reset
                 </v-btn>
@@ -197,7 +191,7 @@
             </v-form>
           </v-card>
 
-          <!-- Success/Error Messages -->
+          <!-- Snackbar -->
           <v-snackbar
             v-model="snackbar.show"
             :color="snackbar.color"
@@ -206,11 +200,7 @@
           >
             {{ snackbar.message }}
             <template v-slot:action="{ attrs }">
-              <v-btn
-                text
-                v-bind="attrs"
-                @click="snackbar.show = false"
-              >
+              <v-btn text v-bind="attrs" @click="snackbar.show = false">
                 Close
               </v-btn>
             </template>
@@ -223,18 +213,19 @@
 
 <script>
 export default {
-  name: 'TenderUploadPage',
+  name: "TenderUploadPage",
   head() {
     return {
-      title: 'Tender Upload - SRCouncil Admin',
+      title: "Tender Upload - SRCouncil Admin",
       meta: [
         {
-          hid: 'description',
-          name: 'description',
-          content: 'Admin panel for uploading and managing tender opportunities at SRCouncil.'
-        }
-      ]
-    }
+          hid: "description",
+          name: "description",
+          content:
+            "Admin panel for uploading and managing tender opportunities at SRCouncil.",
+        },
+      ],
+    };
   },
   data() {
     return {
@@ -243,173 +234,139 @@ export default {
       startDateMenu: false,
       endDateMenu: false,
       form: {
-        tenderId: '',
-        title: '',
-        description: '',
-        startingDate: '',
-        endingDate: '',
-        status: '',
+        tenderId: "",
+        title: "",
+        description: "",
+        startingDate: "",
+        endingDate: "",
+        status: "",
         pdfFile: null,
-        pdfUrl: ''
+        pdfUrl: "",
       },
       statusOptions: [
-        { text: 'Live Now', value: 'Live Now' },
-        { text: 'Closed', value: 'Closed' },
+        { text: "Live Now", value: "Live Now" },
+        { text: "Closed", value: "Closed" },
       ],
-      snackbar: {
-        show: false,
-        message: '',
-        color: 'success',
-        timeout: 5000
-      },
+      snackbar: { show: false, message: "", color: "success", timeout: 5000 },
       // Validation rules
       tenderIdRules: [
-        v => !!v || 'Tender ID is required',
-        v => (v && v.length >= 3) || 'Tender ID must be at least 3 characters'
+        (v) => !!v || "Tender ID is required",
+        (v) => (v && v.length >= 3) || "Tender ID must be at least 3 characters",
       ],
       titleRules: [
-        v => !!v || 'Title is required',
-        v => (v && v.length >= 10) || 'Title must be at least 10 characters'
+        (v) => !!v || "Title is required",
+        (v) => (v && v.length >= 10) || "Title must be at least 10 characters",
       ],
       descriptionRules: [
-        v => !!v || 'Description is required',
-        v => (v && v.length >= 20) || 'Description must be at least 20 characters'
+        (v) => !!v || "Description is required",
+        (v) => (v && v.length >= 20) || "Description must be at least 20 characters",
       ],
-      dateRules: [
-        v => !!v || 'Date is required'
-      ],
+      dateRules: [(v) => !!v || "Date is required"],
       endDateRules: [
-        v => !!v || 'Ending date is required',
-        v => {
-          if (!v || !this.form.startingDate) return true
-          return new Date(v) > new Date(this.form.startingDate) || 'Ending date must be after starting date'
-        }
+        (v) => !!v || "Ending date is required",
+        (v) =>
+          !v || !this.form.startingDate
+            ? true
+            : new Date(v) > new Date(this.form.startingDate) ||
+              "Ending date must be after starting date",
       ],
-      statusRules: [
-        v => !!v || 'Status is required'
-      ],
+      statusRules: [(v) => !!v || "Status is required"],
       pdfRules: [
-        v => {
-          if (!v && !this.form.pdfUrl) return 'Either PDF file or PDF URL is required'
-          if (v && v.type !== 'application/pdf') return 'File must be a PDF'
-          return true
-        }
-      ]
-    }
+        (v) => {
+          if (!v && !this.form.pdfUrl) return "Either PDF file or PDF URL is required";
+          if (v && v.type !== "application/pdf") return "File must be a PDF";
+          return true;
+        },
+      ],
+    };
   },
   methods: {
     handleFileUpload(file) {
-      if (file && file.type !== 'application/pdf') {
-        this.showSnackbar('Please select a valid PDF file', 'error')
-        this.form.pdfFile = null
+      if (file && file.type !== "application/pdf") {
+        this.showSnackbar("Please select a valid PDF file", "error");
+        this.form.pdfFile = null;
       }
     },
     async submitForm() {
       if (!this.$refs.form.validate()) {
-        this.showSnackbar('Please fill in all required fields correctly', 'error')
-        return
+        this.showSnackbar("Please fill in all required fields correctly", "error");
+        return;
       }
 
-      this.loading = true
+      this.loading = true;
 
       try {
-        
-        await this.saveTenderToAWS({
-          tenderId: this.form.tenderId,
+        const payload = {
+          id: this.form.tenderId, // match Lambda
           title: this.form.title,
-          description: this.form.description,
           startDate: this.form.startingDate,
           endDate: this.form.endingDate,
           status: this.form.status,
-          pdfUrl: this.form.pdfUrl
-        });
+          pdfUrl: this.form.pdfUrl || "", // optional
+        };
 
-        
-        await this.uploadTender();
+        const response = await fetch(
+          "https://rbcb8n572i.execute-api.us-east-1.amazonaws.com/prod/src",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          }
+        );
 
-        this.showSnackbar('Tender uploaded successfully!', 'success')
-        this.resetForm()
-      } catch (error) {
-        console.error('Upload error:', error)
-        this.showSnackbar('Failed to upload tender. Please try again.', 'error')
-      } finally {
-        this.loading = false
-      }
-    },
-    async uploadTender() {
-      
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          console.log('Uploading tender (simulated):', this.form)
-          resolve({ success: true })
-        }, 2000)
-      })
-    },
-    async saveTenderToAWS(tenderData) {
-      try {
-        const response = await fetch('https://fekd1z9eg4.execute-api.us-east-1.amazonaws.com/src/tenders', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(tenderData)
-        });
-        if (!response.ok) throw new Error('Failed to save tender to AWS');
+        if (!response.ok) throw new Error("Failed to save tender");
+
         const result = await response.json();
-        console.log('Tender saved to DynamoDB:', result);
+        console.log("Tender saved to DynamoDB:", result);
+
+        this.showSnackbar("Tender uploaded successfully!", "success");
+        this.resetForm();
       } catch (err) {
-        console.error('Error saving tender:', err);
-        throw err;
+        console.error("Error uploading tender:", err);
+        this.showSnackbar("Failed to upload tender. Please try again.", "error");
+      } finally {
+        this.loading = false;
       }
     },
     resetForm() {
-      this.$refs.form.reset()
+      this.$refs.form.reset();
       this.form = {
-        tenderId: '',
-        title: '',
-        description: '',
-        startingDate: '',
-        endingDate: '',
-        status: '',
+        tenderId: "",
+        title: "",
+        description: "",
+        startingDate: "",
+        endingDate: "",
+        status: "",
         pdfFile: null,
-        pdfUrl: ''
-      }
+        pdfUrl: "",
+      };
     },
-    showSnackbar(message, color = 'success') {
-      this.snackbar = {
-        show: true,
-        message,
-        color,
-        timeout: 5000
-      }
-    }
-  }
-}
+    showSnackbar(message, color = "success") {
+      this.snackbar = { show: true, message, color, timeout: 5000 };
+    },
+  },
+};
 </script>
 
 <style scoped>
 .v-card {
   border-radius: 8px;
 }
-
 .v-form {
   padding: 0;
 }
-
 .v-date-picker {
   border-radius: 8px;
 }
-
 .v-input--is-focused .v-label {
-  color: #1D3A7C !important;
+  color: #1d3a7c !important;
 }
-
 .v-input--is-focused .v-input__control .v-input__slot {
-  border-color: #1D3A7C !important;
+  border-color: #1d3a7c !important;
 }
-
 .v-btn--large {
   min-width: 150px;
 }
-
 .v-file-input .v-input__control {
   min-height: 56px;
 }
