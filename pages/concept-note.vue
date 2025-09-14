@@ -11,7 +11,6 @@
             </v-row>
           </v-container>
           <v-divider />
-
           <v-card-title class="justify-start font-weight-bold textColor--text text-h4"
             style="text-align:left !important;">
             About SEE Summit 2022
@@ -26,7 +25,6 @@
               academia, industry and other stakeholders to showcase and exchange their concerns, knowledge, ideas,
               and actions towards developing sustainable environmental conditions while honouring the pace of
               economic growth.</p>
-
             <p>At this day-long conference, the meticulously selected panelists and audience will have the influence,
               intelligence, and competence to drive social, environmental, and economic development. We foresee the
               collaborative and innovative environment at the Summit could potentially help stakeholders explore
@@ -34,11 +32,6 @@
               the judiciary, academia, policymakers, innovators, corporates, and financial institutions in bringing
               about
               positive change on a global scale.</p>
-
-
-
-
-
           </v-card-text>
           <v-card-text class="font-weight-medium body-2 text-left"
             style="font-size:20px !important; line-height: 1.5 !important;">
@@ -47,7 +40,6 @@
               <li>Business Responsibility and Sustainability Report ( BRSR).</li>
               <li> Sustainability and ESG Disclosures.</li>
               <li>ESG Framework and Sustainable Finance.</li>
-
             </ul>
           </v-card-text>
           <v-card-title class="justify-start font-weight-bold textColor--text text-h4"
@@ -88,138 +80,137 @@ export default {
   {
     label: 'Shri. Ashwini Kumar Choubey',
     sub_label: 'Honorable Chief Guest',
-    image: 'https://api.srcouncil.in/media/meta_content/Shri_Ashwini_Kumar_Choubey.jpg',
+    image: require('~/static/content/Shri_Ashwini_Kumar_Choubey.jpg'),
     extra_content: 'Honorable Minister of State for Consumer Affairs, Food and Public Distribution and Environment, Forest and Climate Change'
   },
   {
     label: 'Shri. Mama Natung',
     sub_label: 'Honorable Chief Guest',
-    image: 'https://api.srcouncil.in/media/meta_content/Mama_Natung_Guest_of_Honour.jpg',
+    image: require('~/static/content/Mama_Natung_Guest_of_Honour.jpg'),
     extra_content: 'Honorable Minister of Department of Environment, Forest and Climate Change, Govt. of Arunachal Pradesh'
   },
   {
     label: 'Mr. Naresh Kumar, IAS',
     sub_label: 'Honorable Chief Guest',
-    image: 'https://api.srcouncil.in/media/meta_content/190716075155102_BW.jpg',
+    image: require('~/static/content/190716075155102_BW.jpg'),
     extra_content: 'The chief secretary of the government of Arunachal Pradesh'
   },
   {
     label: 'Honorable Justice Swatanter Kumar',
     sub_label: 'Honorable Keynote Speaker',
-    image: 'https://api.srcouncil.in/media/meta_content/Justice_Swatanter_Kumar_Keynote_Speaker.jpg',
+    image: require('~/static/content/Justice_Swatanter_Kumar_Keynote_Speaker.jpg'),
     extra_content: 'Former Chairman, National Green Tribunal'
   },
   {
     label: 'Honorable Justice Sheo Kumar Singh',
     sub_label: 'Guest of Honour',
-    image: 'https://api.srcouncil.in/media/meta_content/Justice_Sheo_Kumar_Singh.jpg',
+    image: require('~/static/content/Justice_Sheo_Kumar_Singh.jpg'),
     extra_content: 'Judicial Member, National Green Tribunal'
   },
   {
     label: 'Shri. Satish Upadhyay',
     sub_label: 'Guest of Honour',
-    image: 'https://api.srcouncil.in/media/meta_content/shri_satish_upadhyay.jpg',
+    image: require('~/static/content/shri_satish_upadhyay.jpg'),
     extra_content: 'Honorable Vice-Chairperson, New Delhi Municipal Council'
   },
   {
     label: 'Shri. Vinai Kumar Saxena',
     sub_label: 'Guest of Honour',
-    image: 'https://api.srcouncil.in/media/meta_content/Shri._Vinai_Kumar_Saxena_Guest_of_Honour.jpg',
+    image: require('~/static/content/Shri._Vinai_Kumar_Saxena_Guest_of_Honour.jpg'),
     extra_content: 'Honorable Chairman of the Khadi and Village Industries Commission'
   },
   {
     label: 'Dr. Suvrokamal Dutta',
     sub_label: 'Guest of Honour',
-    image: 'https://api.srcouncil.in/media/meta_content/Dr._S.K_Dutta_Guest_of_Honour_Hutj9HZ.jpg',
+    image: require('~/static/content/Dr._S.K_Dutta_Guest_of_Honour_Hutj9HZ.jpg'),
     extra_content: 'Renowned Right Wing Media Think Tank'
   },
   {
     label: 'Mr. Arun Khurana',
     sub_label: 'Honorable Organizer',
-    image: 'https://api.srcouncil.in/media/meta_content/Mr._Arun_Khurana_Honorable_Organizer.jpg',
+    image: require('~/static/content/Mr._Arun_Khurana_Honorable_Organizer.jpg'),
     extra_content: 'Founder, Social Responsibility Council'
   },
   {
     label: 'Dr. Rawail Singh',
     sub_label: 'Honorable Organizing Head',
-    image: 'https://api.srcouncil.in/media/meta_content/Dr._Rawail_Singh.jpg',
+    image: require('~/static/content/Dr._Rawail_Singh.jpg'),
     extra_content: 'Member University Court and Member of Standing Committee of Delhi University'
   },
   {
     label: 'Miss Prachi Tehlan',
     sub_label: 'Special Guest',
-    image: 'https://api.srcouncil.in/media/meta_content/NSP_1232_BW.jpg',
+    image: require('~/static/content/NSP_1232_BW.jpg'),
     extra_content: 'Actress'
   },
   {
     label: 'Advocate Vivek Narayan Sharma',
     sub_label: 'Moderator',
-    image: 'https://api.srcouncil.in/media/meta_content/Mr._Vivek_Narayan_Sharma_Moderator.jpg',
+    image: require('~/static/content/Mr._Vivek_Narayan_Sharma_Moderator.jpg'),
     extra_content: 'Counsel/Advocate, Supreme Court of India'
   },
   {
     label: 'Mrs. Sangeeta',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/DSC_0399_BW.jpg',
+    image: require('~/static/content/DSC_0399_BW.jpg'),
     extra_content: 'Advocate Supreme Court of India'
   },
   {
     label: 'Shri Sanjeev Sharma',
     sub_label: 'Special Guest',
-    image: 'https://api.srcouncil.in/media/meta_content/DSC_0166_BW.jpg',
+    image: require('~/static/content/DSC_0166_BW.jpg'),
     extra_content: 'Social Activist'
   },
   {
     label: 'Shri. Tanmoy Chakrabarty',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Shri_Tanmoy_Chakrabarty_Panelist.jpg',
+    image: require('~/static/content/Shri_Tanmoy_Chakrabarty_Panelist.jpg'),
     extra_content: 'Group Government Affairs Officer of Tata Sons'
   },
   {
     label: 'Dr. Anil Kumar',
     sub_label: 'Moderator',
-    image: 'https://api.srcouncil.in/media/meta_content/Dr._Anil_Kumar_Moderator.jpg',
+    image: require('~/static/content/Dr._Anil_Kumar_Moderator.jpg'),
     extra_content: 'Former Director Environment, Govt. of NCT of Delhi'
   },
   {
     label: 'Mr. Praveen Garg, IAS (Retd.)',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Mr._Praveen_Garg_Panelist.jpg',
+    image: require('~/static/content/Mr._Praveen_Garg_Panelist.jpg'),
     extra_content: 'Special Secretary, Ministry of Environment, Forest and Climate Change, Govt. of India'
   },
   {
     label: 'Mr. S. Rajesh, IFS',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Rajesh_S_IFS_Panelist_SKLYOwz.jpg',
+    image: require('~/static/content/Rajesh_S_IFS_Panelist_SKLYOwz.jpg'),
     extra_content: 'Chief Conservator of Forests (Environment and Climate Change), Government of Arunachal'
   },
   {
     label: 'Peepal Baba (Swami Prem Parivartan)',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Peepal_Baba_Swami_Prem_Parivartan_Panelist.jpg',
+    image: require('~/static/content/Peepal_Baba_Swami_Prem_Parivartan_Panelist.jpg'),
     extra_content: 'Environmentalist'
   },
   {
     label: 'Mr. Gaurav Chopra',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Mr._Gaurav_Chopra_Panelist.jpg',
+    image: require('~/static/content/Mr._Gaurav_Chopra_Panelist.jpg'),
     extra_content: 'India Director, Global Environmental Protection Drive'
   },
   {
     label: 'Mr. Aashish Beergi',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Aashish_Beergi_Panelist.jpg',
+    image: require('~/static/content/Aashish_Beergi_Panelist.jpg'),
     extra_content: 'Founder & CEO, The Mash Project Foundation'
   },
   {
     label: 'Mr. Harshad Gupta',
     sub_label: 'Panelist',
-    image: 'https://api.srcouncil.in/media/meta_content/Mr._Harshad_Gupta.jpg',
+    image: require('~/static/content/Mr._Harshad_Gupta.jpg'),
     extra_content: 'Founder & Director, Ecochirp Foundation'
   }
 ]
     //this.$store.commit("main/SET_HOME_DATA", this.posts)
-
   },
   data: () => ({
     data: []
@@ -230,7 +221,6 @@ export default {
 .v-image__image {
   background-size: 100% 100%;
 }
-
 .v-card__text,
 .v-card__title {
   word-break: normal;
