@@ -344,4 +344,262 @@
         }
       },
       downloadPdf(item) {
-      ...
+        if (!this.canDownloadTender(item)) return
+        
+        // Set loading state
+        this.$set(item, 'downloading', true)
+        
+        // Simulate download process
+        setTimeout(() => {
+          this.$set(item, 'downloading', false)
+          // In a real application, you would trigger the actual download here
+          window.open(item.pdfUrl, '_blank')
+        }, 1000)
+      },
+      // Get blinker class based on proximity to end date
+      getBlinkerClass(item) {
+        const now = new Date()
+        const endDate = new Date(item.endingDate)
+        const daysUntilEnd = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24))
+        
+        if (daysUntilEnd <= 3) {
+          return 'blinker-red'
+        } else if (daysUntilEnd <= 7) {
+          return 'blinker-orange'
+        } else {
+          return 'blinker-green'
+        }
+      },
+      // Get tooltip text for blinker
+      getBlinkerTooltip(item) {
+        const now = new Date()
+        const endDate = new Date(item.endingDate)
+        const daysUntilEnd = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24))
+        
+        if (daysUntilEnd <= 0) {
+          return 'Closing today!'
+        } else if (daysUntilEnd === 1) {
+          return 'Closing tomorrow!'
+        } else if (daysUntilEnd <= 3) {
+          return `Closing in ${daysUntilEnd} days!`
+        } else if (daysUntilEnd <= 7) {
+          return `Closing soon (${daysUntilEnd} days left)`
+        } else {
+          return 'Live'
+        }
+      },
+      // Get countdown text for ending date
+      getCountdownText(item) {
+        const now = new Date()
+        const endDate = new Date(item.endingDate)
+        const daysUntilEnd = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24))
+        
+        if (daysUntilEnd <= 0) {
+          return 'Ends today!'
+        } else if (daysUntilEnd === 1) {
+          return 'Ends tomorrow'
+        } else if (daysUntilEnd <= 7) {
+          return `${daysUntilEnd} days left`
+        } else {
+          return `${daysUntilEnd} days left`
+        }
+      },
+      // Get countdown class for styling
+      getCountdownClass(item) {
+        const now = new Date()
+        const endDate = new Date(item.endingDate)
+        const daysUntilEnd = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24))
+        
+        if (daysUntilEnd <= 3) {
+          return 'text-red font-weight-bold'
+        } else if (daysUntilEnd <= 7) {
+          return 'text-orange font-weight-medium'
+        } else {
+          return 'text-green'
+        }
+      }
+    }
+  }
+  </script>
+  
+  <style scoped>
+  .v-data-table {
+    border-radius: 8px;
+  }
+  
+  .v-card {
+    border-radius: 8px;
+  }
+  
+  .v-chip {
+    font-weight: 500;
+  }
+  
+  /* Custom hover effects */
+  .v-data-table tbody tr:hover {
+    background-color: rgba(29, 58, 124, 0.04) !important;
+  }
+  
+  /* Status chip styling */
+  .v-chip--success {
+    background-color: #4CAF50 !important;
+  }
+  
+  .v-chip--error {
+    background-color: #F44336 !important;
+  }
+  
+  .v-chip--info {
+    background-color: #2196F3 !important;
+  }
+  
+  .v-chip--warning {
+    background-color: #FF9800 !important;
+  }
+  
+  /* Live Blinker Animation */
+  .live-blinker {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: blink 1.5s infinite;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .live-text-blinker {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    animation: blink 1.5s infinite;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+  }
+  
+  .live-blinker:hover,
+  .live-text-blinker:hover {
+    transform: scale(1.2);
+  }
+  
+  .blinker-green {
+    background-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .blinker-green.live-text-blinker {
+    color: #2E7D32;
+    background-color: rgba(76, 175, 80, 0.2);
+    text-shadow: 0 0 5px rgba(76, 175, 80, 0.8);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+  }
+  
+  .blinker-orange {
+    background-color: #FF9800;
+    box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+  }
+  
+  .blinker-orange.live-text-blinker {
+    color: #E65100;
+    background-color: rgba(255, 152, 0, 0.2);
+    text-shadow: 0 0 5px rgba(255, 152, 0, 0.8);
+    border: 1px solid rgba(255, 152, 0, 0.3);
+  }
+  
+  .blinker-red {
+    background-color: #F44336;
+    box-shadow: 0 0 5px rgba(244, 67, 54, 0.5);
+    animation: urgent-blink 0.8s infinite;
+  }
+  
+  .blinker-red.live-text-blinker {
+    color: #C62828;
+    background-color: rgba(244, 67, 54, 0.2);
+    text-shadow: 0 0 5px rgba(244, 67, 54, 0.8);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+    animation: urgent-blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    51%, 100% {
+      opacity: 0.4;
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes urgent-blink {
+    0%, 50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    51%, 100% {
+      opacity: 0.2;
+      transform: scale(0.8);
+    }
+  }
+  
+  /* Disabled button styling */
+  .v-btn--disabled {
+    opacity: 0.4 !important;
+  }
+  
+  /* Countdown text styling */
+  .text-red {
+    color: #F44336 !important;
+  }
+  
+  .text-orange {
+    color: #FF9800 !important;
+  }
+  
+  .text-green {
+    color: #4CAF50 !important;
+  }
+  
+  /* Enhanced table row styling for live tenders */
+  .v-data-table tbody tr:hover .live-blinker {
+    animation-play-state: paused;
+  }
+  
+  /* Status chip enhancements */
+  .v-chip--success {
+    position: relative;
+  }
+  
+  .v-chip--success::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 6px;
+    height: 6px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(76, 175, 80, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+  }
+  </style>
