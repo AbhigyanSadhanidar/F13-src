@@ -65,7 +65,7 @@
                             :class="getBlinkerClass(item)"
                             class="live-text-blinker mr-1"
                           >
-                            LIVE
+                            {{ item.isUpdate ? 'UPDATE' : 'LIVE' }}
                           </span>
                          
                         </div>
@@ -241,8 +241,18 @@
         ],
         tenders: [
           {
-            tenderId: 'SRC-T-2024-001',
-            title: 'Space Labs',
+            tenderId: 'NSTFDC/CSR/Space Lab/2025-26',
+            title: 'CORRIGENDUM-1-Notice inviting Proposal for Selection of ISRO-Recognized Space Tutors for Establishment of Space Labs.',
+            startingDate: '2025-09-14',
+            endingDate: '2025-09-28',
+            status: 'Live Now',
+            pdfUrl: '/pdf/CORRIGENDUM-1.pdf',
+            downloading: false,
+            isUpdate: true
+          },
+          {
+            tenderId: 'NSTFDC/CSR/Space Lab/2025-26 ',
+            title: 'Notice inviting Proposal for Selection of ISRO-Recognized Space Tutors for Establishment of Space Labs .',
             startingDate: '2025-09-14',
             endingDate: '2025-09-28',
             status: 'Live Now',
@@ -358,6 +368,10 @@
       },
       // Get blinker class based on proximity to end date
       getBlinkerClass(item) {
+        if (item.isUpdate) {
+          return 'blinker-red'
+        }
+        
         const now = new Date()
         const endDate = new Date(item.endingDate)
         const daysUntilEnd = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24))
@@ -372,6 +386,10 @@
       },
       // Get tooltip text for blinker
       getBlinkerTooltip(item) {
+        if (item.isUpdate) {
+          return 'This tender has been updated!'
+        }
+        
         const now = new Date()
         const endDate = new Date(item.endingDate)
         const daysUntilEnd = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24))

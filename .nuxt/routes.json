@@ -2,290 +2,290 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\about\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\about\\\\index.vue",
     "chunkName": "pages/about/index",
-    "_name": "_20d960bc"
+    "_name": "_06928ede"
   },
   {
     "name": "advisory",
     "path": "/advisory",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\advisory.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\advisory.vue",
     "chunkName": "pages/advisory",
-    "_name": "_82991094"
+    "_name": "_42cbb4f2"
   },
   {
     "name": "capabilities",
     "path": "/capabilities",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\index.vue",
     "chunkName": "pages/capabilities/index",
-    "_name": "_2094e76f"
+    "_name": "_80f1669a"
   },
   {
     "name": "concept-note",
     "path": "/concept-note",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\concept-note.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\concept-note.vue",
     "chunkName": "pages/concept-note",
-    "_name": "_4f868db4"
+    "_name": "_6685ccf0"
   },
   {
     "name": "demo",
     "path": "/demo",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\demo.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\demo.vue",
     "chunkName": "pages/demo",
-    "_name": "_24091b40"
+    "_name": "_4148a4c8"
   },
   {
     "name": "events",
     "path": "/events",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\events\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\events\\\\index.vue",
     "chunkName": "pages/events/index",
-    "_name": "_5691426c"
+    "_name": "_1f79eab0"
   },
   {
     "name": "founder",
     "path": "/founder",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\founder\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\founder\\\\index.vue",
     "chunkName": "pages/founder/index",
-    "_name": "_15399900"
+    "_name": "_6965f93c"
   },
   {
     "name": "I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL",
     "path": "/I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL.vue",
     "chunkName": "pages/I9c6MHOnM3JS8fbH7qmBAFGPRI0PuUlL",
-    "_name": "_25948411"
+    "_name": "_5f57cd4d"
   },
   {
     "name": "inspire",
     "path": "/inspire",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\inspire.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\inspire.vue",
     "chunkName": "pages/inspire",
-    "_name": "_6c227226"
+    "_name": "_11081b9e"
   },
   {
     "name": "members",
     "path": "/members",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\members\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\members\\\\index.vue",
     "chunkName": "pages/members/index",
-    "_name": "_11f2f556"
+    "_name": "_661f5592"
   },
   {
     "name": "pledge",
     "path": "/pledge",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\pledge\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\pledge\\\\index.vue",
     "chunkName": "pages/pledge/index",
-    "_name": "_b9ba3c68"
+    "_name": "_6c0b8a10"
   },
   {
     "name": "register_success",
     "path": "/register_success",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\register_success.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\register_success.vue",
     "chunkName": "pages/register_success",
-    "_name": "_699d6564"
+    "_name": "_6432a6a0"
   },
   {
     "name": "registration",
     "path": "/registration",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\registration.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\registration.vue",
     "chunkName": "pages/registration",
-    "_name": "_e6106594"
+    "_name": "_b811e71c"
   },
   {
     "name": "SeeSummit2021",
     "path": "/SeeSummit2021",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\SeeSummit2021.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\SeeSummit2021.vue",
     "chunkName": "pages/SeeSummit2021",
-    "_name": "_557414e0"
+    "_name": "_c3a2c458"
   },
   {
     "name": "SeeSummit2022",
     "path": "/SeeSummit2022",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\SeeSummit2022.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\SeeSummit2022.vue",
     "chunkName": "pages/SeeSummit2022",
-    "_name": "_5557e5de"
+    "_name": "_c3869556"
   },
   {
     "name": "success",
     "path": "/success",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\success.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\success.vue",
     "chunkName": "pages/success",
     "children": [
       {
         "name": "success-id",
         "path": ":id?",
-        "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\success\\\\_id.vue",
+        "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\success\\\\_id.vue",
         "chunkName": "pages/success/_id",
-        "_name": "_232a0594"
+        "_name": "_3a2944d0"
       }
     ],
-    "_name": "_25ea50d4"
+    "_name": "_1a9802da"
   },
   {
     "name": "supporters",
     "path": "/supporters",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\supporters.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\supporters.vue",
     "chunkName": "pages/supporters",
-    "_name": "_ed78e418"
+    "_name": "_68416c30"
   },
   {
     "name": "team",
     "path": "/team",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\team\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\team\\\\index.vue",
     "chunkName": "pages/team/index",
-    "_name": "_0e928168"
+    "_name": "_0f506aac"
   },
   {
     "name": "tenders",
     "path": "/tenders",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\tenders.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\tenders.vue",
     "chunkName": "pages/tenders",
-    "_name": "_027591b2"
+    "_name": "_3002bcf6"
   },
   {
     "name": "ventures",
     "path": "/ventures",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\ventures\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\ventures\\\\index.vue",
     "chunkName": "pages/ventures/index",
-    "_name": "_48316025"
+    "_name": "_79910769"
   },
   {
     "name": "about-src",
     "path": "/about/src",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\about\\\\src.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\about\\\\src.vue",
     "chunkName": "pages/about/src",
-    "_name": "_02def9b4"
+    "_name": "_3c465020"
   },
   {
     "name": "capabilities-consulting_and_advisory",
     "path": "/capabilities/consulting_and_advisory",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\consulting_and_advisory.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\consulting_and_advisory.vue",
     "chunkName": "pages/capabilities/consulting_and_advisory",
-    "_name": "_42109ab2"
+    "_name": "_3f3cceeb"
   },
   {
     "name": "capabilities-digital_documentation",
     "path": "/capabilities/digital_documentation",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\digital_documentation.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\digital_documentation.vue",
     "chunkName": "pages/capabilities/digital_documentation",
-    "_name": "_b1d57620"
+    "_name": "_d886bb98"
   },
   {
     "name": "capabilities-documentry",
     "path": "/capabilities/documentry",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\documentry.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\documentry.vue",
     "chunkName": "pages/capabilities/documentry",
-    "_name": "_4dbfa756"
+    "_name": "_e2231cde"
   },
   {
     "name": "capabilities-esg",
     "path": "/capabilities/esg",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\esg.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\esg.vue",
     "chunkName": "pages/capabilities/esg",
-    "_name": "_bf37cc54"
+    "_name": "_0f11ffcc"
   },
   {
     "name": "capabilities-intellectual_support",
     "path": "/capabilities/intellectual_support",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\intellectual_support.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\intellectual_support.vue",
     "chunkName": "pages/capabilities/intellectual_support",
-    "_name": "_1e6ddb63"
+    "_name": "_16f874c2"
   },
   {
     "name": "capabilities-media_advocacy",
     "path": "/capabilities/media_advocacy",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\media_advocacy.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\media_advocacy.vue",
     "chunkName": "pages/capabilities/media_advocacy",
-    "_name": "_5b85211e"
+    "_name": "_49f6685a"
   },
   {
     "name": "capabilities-partnerships",
     "path": "/capabilities/partnerships",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\partnerships.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\partnerships.vue",
     "chunkName": "pages/capabilities/partnerships",
-    "_name": "_5fd1ec62"
+    "_name": "_49b85ac4"
   },
   {
     "name": "capabilities-research",
     "path": "/capabilities/research",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\capabilities\\\\research.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\capabilities\\\\research.vue",
     "chunkName": "pages/capabilities/research",
-    "_name": "_ff56e0e4"
+    "_name": "_522af3ca"
   },
   {
     "name": "efs-login",
     "path": "/efs/login",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\efs\\\\login.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\efs\\\\login.vue",
     "chunkName": "pages/efs/login",
-    "_name": "_6262a274"
+    "_name": "_416080b0"
   },
   {
     "name": "esf-members",
     "path": "/esf/members",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\esf\\\\members.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\esf\\\\members.vue",
     "chunkName": "pages/esf/members",
-    "_name": "_9f7648c4"
+    "_name": "_7177ca4c"
   },
   {
     "name": "events-campaigns",
     "path": "/events/campaigns",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\events\\\\campaigns.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\events\\\\campaigns.vue",
     "chunkName": "pages/events/campaigns",
-    "_name": "_ef4e8d06"
+    "_name": "_3f28c07e"
   },
   {
     "name": "membership-internship",
     "path": "/membership/internship",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\membership\\\\internship.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\membership\\\\internship.vue",
     "chunkName": "pages/membership/internship",
-    "_name": "_1e7d5761"
+    "_name": "_1f5888c6"
   },
   {
     "name": "membership-voluntary",
     "path": "/membership/voluntary",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\membership\\\\voluntary.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\membership\\\\voluntary.vue",
     "chunkName": "pages/membership/voluntary",
-    "_name": "_42e271dd"
+    "_name": "_225ed3be"
   },
   {
     "name": "ventures-m_book",
     "path": "/ventures/m_book",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\ventures\\\\m_book.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\ventures\\\\m_book.vue",
     "chunkName": "pages/ventures/m_book",
-    "_name": "_14392638"
+    "_name": "_0ece6774"
   },
   {
     "name": "events-id",
     "path": "/events/:id",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\events\\\\_id.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\events\\\\_id.vue",
     "chunkName": "pages/events/_id",
-    "_name": "_c7b62058"
+    "_name": "_c63a4dd0"
   },
   {
     "name": "pledge-id",
     "path": "/pledge/:id",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\pledge\\\\_id.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\pledge\\\\_id.vue",
     "chunkName": "pages/pledge/_id",
-    "_name": "_6d56e734"
+    "_name": "_6e14d078"
   },
   {
     "name": "ventures-id",
     "path": "/ventures/:id",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\ventures\\\\_id.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\ventures\\\\_id.vue",
     "chunkName": "pages/ventures/_id",
-    "_name": "_687327cd"
+    "_name": "_315bd011"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_747d23a5"
+    "_name": "_a1b7602e"
   },
   {
     "name": "id",
     "path": "/:id",
-    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\F13\\\\src\\\\F13-src\\\\pages\\\\_id.vue",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\_id.vue",
     "chunkName": "pages/_id",
-    "_name": "_584c6966"
+    "_name": "_27b18ede"
   }
 ]
