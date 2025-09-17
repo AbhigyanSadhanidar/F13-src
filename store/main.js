@@ -185,19 +185,8 @@ export const state = () => ({
             options: [
                 {
                     name: "Projects",
-                    subMenu: true,
                     target: "",
-                    redirect: "#",
-                    subMenuOptions: [
-                        {
-                            name: "Space Lab Project-Under CSR initiative of BPCL",
-                            redirect: "https://nstfds.vercel.app/login",
-                            target: "",
-                            choice: false,
-                        },
-
-                    ]
-
+                    redirect: "/csr/projects/",
                 },
                 {
                     name: "Ventures",
@@ -339,29 +328,29 @@ export const state = () => ({
 
         //     ]
         // },
-        {
-            name: "Environment Audit",
-            link: "/",
-            target: "",
-            choice: false,
-            options: [
-                {
-                    name: "Events",
-                    target: "",
-                    redirect: ""
-                },
-                {
-                    name: "Campaigns",
-                    target: "",
-                    redirect: "/events/campaigns/"
-                },
-                // {
-                //     name:"Activities",
-                //     redirect:""
-                // },
+        // {
+        //     name: "Environment Audit",
+        //     // link: "/",
+        //     target: "",
+        //     choice: false,
+        //     options: [
+        //         {
+        //             name: "Events",
+        //             target: "",
+        //             redirect: ""
+        //         },
+        //         {
+        //             name: "Campaigns",
+        //             target: "",
+        //             redirect: "/events/campaigns/"
+        //         },
+        //         // {
+        //         //     name:"Activities",
+        //         //     redirect:""
+        //         // },
 
-            ]
-        },
+        //     ]
+        // },
         {
             name: "ESF",
             link: "/",
@@ -373,16 +362,16 @@ export const state = () => ({
                     target: "_blank",
                     redirect: "/pdf/organization-structure.pdf"
                 },
-                {
-                    name: "Team",
-                    target: "",
-                    redirect: "#"
-                },
-                {
-                    name: "Members",
-                    target: "",
-                    redirect: "#"
-                },
+                // {
+                //     name: "Team",
+                //     target: "",
+                //     redirect: "#"
+                // },
+                // {
+                //     name: "Members",
+                //     target: "",
+                //     redirect: "#"
+                // },
 
 
             ]
@@ -393,12 +382,12 @@ export const state = () => ({
             target: "",
             choice: true,
             options: [
-                {
-                    name: "Courses",
-                    subMenu: false,
-                    target: "_blank",
-                    redirect: "https://courses.srcouncil.in/"
-                },
+                // {
+                //     name: "Courses",
+                //     subMenu: false,
+                //     target: "_blank",
+                //     redirect: "https://courses.srcouncil.in/"
+                // },
                 {
                     name: "Workshops",
                     subMenu: false,
@@ -435,12 +424,12 @@ export const state = () => ({
             target: "",
             choice: true,
             options: [
-                {
-                    name: "Campaigns",
-                    subMenu: false,
-                    target: "",
-                    redirect: "/events/campaigns/"
-                },
+                // {
+                //     name: "Campaigns",
+                //     subMenu: false,
+                //     target: "",
+                //     redirect: "/events/campaigns/"
+                // },
                 {
                     name: "Upcoming",
                     subMenu: true,

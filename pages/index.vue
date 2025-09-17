@@ -507,13 +507,13 @@ export default {
         }
     ],
     "master_data": {
-        "image": "https://media.istockphoto.com/id/1418847625/photo/telescope-watching-the-sky-and-falling-star-3d-rendering.jpg?s=612x612&w=0&k=20&c=6cOZO6DWYI53WyD9j_gH2lXxSKikcKcqifXt2P9gvF4=",
+        "image": require("~/static/space.jpg"),
         "title": "Space Lab - Advanced Research Initiative",
         "description": " ISRO-recognized Space Tutor organizations for the establishment of “Space Labs” in EMRS"
     },
     "master_list": [
         {
-            "image": "https://media.istockphoto.com/id/1418847625/photo/telescope-watching-the-sky-and-falling-star-3d-rendering.jpg?s=612x612&w=0&k=20&c=6cOZO6DWYI53WyD9j_gH2lXxSKikcKcqifXt2P9gvF4=",
+            "image":  require("~/static/space.jpg"),
             "title": "Space Lab - Advanced Research Initiative",
             "description": " ISRO-recognized Space Tutor organizations for the establishment of “Space Labs” in EMRS"
         },

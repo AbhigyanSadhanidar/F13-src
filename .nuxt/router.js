@@ -34,6 +34,7 @@ const _16f874c2 = () => interopDefault(import('..\\pages\\capabilities\\intellec
 const _49f6685a = () => interopDefault(import('..\\pages\\capabilities\\media_advocacy.vue' /* webpackChunkName: "pages/capabilities/media_advocacy" */))
 const _49b85ac4 = () => interopDefault(import('..\\pages\\capabilities\\partnerships.vue' /* webpackChunkName: "pages/capabilities/partnerships" */))
 const _522af3ca = () => interopDefault(import('..\\pages\\capabilities\\research.vue' /* webpackChunkName: "pages/capabilities/research" */))
+const _590042da = () => interopDefault(import('..\\pages\\csr\\projects.vue' /* webpackChunkName: "pages/csr/projects" */))
 const _416080b0 = () => interopDefault(import('..\\pages\\efs\\login.vue' /* webpackChunkName: "pages/efs/login" */))
 const _7177ca4c = () => interopDefault(import('..\\pages\\esf\\members.vue' /* webpackChunkName: "pages/esf/members" */))
 const _3f28c07e = () => interopDefault(import('..\\pages\\events\\campaigns.vue' /* webpackChunkName: "pages/events/campaigns" */))
@@ -178,6 +179,10 @@ export const routerOptions = {
     path: "/capabilities/research",
     component: _522af3ca,
     name: "capabilities-research"
+  }, {
+    path: "/csr/projects",
+    component: _590042da,
+    name: "csr-projects"
   }, {
     path: "/efs/login",
     component: _416080b0,

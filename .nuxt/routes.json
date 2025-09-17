@@ -212,6 +212,13 @@
     "_name": "_522af3ca"
   },
   {
+    "name": "csr-projects",
+    "path": "/csr/projects",
+    "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\csr\\\\projects.vue",
+    "chunkName": "pages/csr/projects",
+    "_name": "_590042da"
+  },
+  {
     "name": "efs-login",
     "path": "/efs/login",
     "component": "C:\\\\Users\\\\Yash\\\\Desktop\\\\Abhigyan-src\\\\F13-src\\\\pages\\\\efs\\\\login.vue",
